@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Բոսսի Նորաձևություն</title>
+  <title>Мода</title>
   <style>
     body {
       margin: 0;
@@ -95,56 +95,56 @@
 <body>
 
   <header>
-    <h1>Բոսսի Նորաձևություն</h1>
-    <p>Հագուստ, ոճ և ինքնություն՝ մեկ վայրում</p>
+    <h1>Мода</h1>
+    <p>Одежда, стиль и идентичность</p>
   </header>
 
   <nav>
-    <button>Տղամարդիկ</button>
-    <button>Կանայք</button>
-    <button>Աքսեսուարներ</button>
-    <button>Զեղչեր</button>
+    <button>Мужчины</button>
+    <button>Женщины</button>
+    <button>Аксессуары</button>
+    <button>Скидки</button>
   </nav>
 
   <section class="products">
     <div class="product-card">
-      <span class="badge">Նոր</span>
-      <img src="https://via.placeholder.com/300x250?text=Հագուստ+1" alt="Հագուստ 1">
+      <span class="badge">Новый</span>
+      <img src="https://via.placeholder.com/300x250?text=Հագուստ+1" alt="Одежда 1">
       <div class="product-info">
-        <h3>Սև բամբակյա շապիկ</h3>
-        <p>Գին՝ 5,900 դրամ</p>
-        <button onclick="addToCart('Սև շապիկ', 5900)">Ավելացնել զամբյուղ</button>
+        <h3>чёрная хлопковая футболка</h3>
+        <p>Цена՝ 5,900 драм</p>
+        <button onclick="addToCart('чёрная рубашка', 5900)">Добавить в корзину</button>
       </div>
     </div>
     <div class="product-card">
-      <span class="badge">Զեղչ</span>
-      <img src="https://via.placeholder.com/300x250?text=Հագուստ+2" alt="Հագուստ 2">
+      <span class="badge">Скидка</span>
+      <img src="https://via.placeholder.com/300x250?text=Հագուստ+2" alt="Одежда 2">
       <div class="product-info">
-        <h3>Կանացի վերնաշապիկ</h3>
-        <p>Գին՝ 7,200 դրամ</p>
-        <button onclick="addToCart('Վերնաշապիկ', 7200)">Ավելացնել զամբյուղ</button>
+        <h3>женская рубашка</h3>
+        <p>Цена՝ 7,200 драм</p>
+        <button onclick="addToCart('рубашка', 7200)">Добавить в корзину</button>
       </div>
     </div>
     <div class="product-card">
-      <img src="https://via.placeholder.com/300x250?text=Հագուստ+3" alt="Հագուստ 3">
+      <img src="https://via.placeholder.com/300x250?text=Հագուստ+3" alt="Одежда 3">
       <div class="product-info">
-        <h3>Աքսեսուար՝ գլխարկ</h3>
-        <p>Գին՝ 2,500 դրամ</p>
-        <button onclick="addToCart('Գլխարկ', 2500)">Ավելացնել զամբյուղ</button>
+        <h3>аксессуар: головной убор / шапка</h3>
+        <p>Цена՝ 2,500 драм</p>
+        <button onclick="addToCart('шапка', 2500)">Добавить в корзину</button>
       </div>
     </div>
   </section>
 
   <footer>
-    &copy; 2025 Բոսսի Նորաձևություն | Կայքը ստեղծվել է Boss-ի ոճով<br>
-    Կապ՝ 📞 +374 99 123456 | 📧 info@bossfashion.am
+    &copy; Мода | сайт создан в моём стиле<br>
+    Связь՝ 📞 +374 77 566221 | 📧 mnatsakanyangor22@gmail.com
   </footer>
 
   <script>
     let cart = [];
     function addToCart(product, price) {
       cart.push({ product, price });
-      alert(`Ավելացվեց՝ ${product} (${price} դրամ)`);
+      alert(`Добавлено՝ ${product} (${price} драм)`);
     }
   </script>
 
